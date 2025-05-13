@@ -26,6 +26,8 @@ tcp-client (from tcp-client.cc)
 
 ## Run Instructions
 
+Please ensure you start the server first before you run the client. Start the server and ensure both the server and client model run on the same port you have chosen.
+
 ### Start the Server
 
 ```bash
