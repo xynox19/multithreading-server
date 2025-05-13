@@ -1,6 +1,6 @@
 # Multithreading TCP Server
 
-This project is a simple multithreaded TCP server and client implemented in C++. It demonstrates basic socket programming using the BSD sockets API and includes threading support to handle multiple clients concurrently.
+This project is a simple multithreaded TCP server and client implemented both in C++ and Python. It demonstrates basic socket programming using the BSD sockets API and includes threading support to handle multiple clients concurrently.
 
 ## Features
 
@@ -10,7 +10,19 @@ This project is a simple multithreaded TCP server and client implemented in C++.
 - Basic send/receive communication
 - Clean, minimal codebase for learning or extension
 
+# Python Server-Client
+
 ## File Structure
+- client.py
+- server.py
+
+## Run Instructions
+
+Run the server prior to the client and ensure both models use the same port. Feel free to adapt anything else after.
+
+# C++ Server-Client
+
+## File Structure 
 
 - `tcp-server.cc`: The main multithreaded server implementation.
 - `tcp-client.cc`: A client that connects to the server for communication.
@@ -34,7 +46,6 @@ Please ensure you start the server first before you run the client. Start the se
 ./tcp-server <PORT>
 ./tcp-server 8080
 ```
-
 
 ## How It Works
 The server listens on a specified port.
